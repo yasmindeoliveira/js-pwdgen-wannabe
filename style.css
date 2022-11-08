@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.background {
+    background-color: rgb(235, 235, 165);
+}
+
+.info {
+    font-weight: bolder;
+}

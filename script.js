@@ -34,3 +34,11 @@ console. log ("Secondo numero scelto: " + numero2);
 
 let divisione = numero1 / numero2;
 console. log ("Password di recupero:" + nome + cognome + colorePreferito + divisione);
+
+// Elementi mostrati sulla pagina html
+
+document.getElementById ("p-nome") .innerHTML = nome;
+document.getElementById ("p-cognome") .innerHTML = cognome;
+document.getElementById ("p-colorePreferito") .innerHTML = colorePreferito;
+document.getElementById ("p-password") .innerHTML = nome + cognome + colorePreferito + 21;
+document.getElementById ("p-passwordRecupero") .innerHTML = nome + cognome + colorePreferito + divisione;
