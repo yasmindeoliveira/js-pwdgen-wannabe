@@ -8,8 +8,11 @@ let colorePreferito = prompt ("Inserisci il tuo colore preferito");
 
 console. log (
     `
-        Nome: ${nome};
-        Cognome: ${cognome};
-        Colore Preferito: ${colorePreferito};
+    --------- Informazioni Anagrafiche ---------
+        Nome: ${nome}
+        Cognome: ${cognome}
+
+    ---- Informazioni sul colore preferito -----
+        Colore Preferito: ${colorePreferito}
     `
-)
+);
