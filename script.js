@@ -16,3 +16,7 @@ console. log (
         Colore Preferito: ${colorePreferito}
     `
 );
+
+// Password (non sicura)
+
+console. log ("Password: " + nome + cognome + colorePreferito + 21)
