@@ -40,5 +40,7 @@ console. log ("Password di recupero:" + nome + cognome + colorePreferito + divis
 document.getElementById ("p-nome") .innerHTML = nome;
 document.getElementById ("p-cognome") .innerHTML = cognome;
 document.getElementById ("p-colorePreferito") .innerHTML = colorePreferito;
+document.getElementById ("p-numero1") .innerHTML = numero1
+document.getElementById ("p-numero2") .innerHTML = numero2
 document.getElementById ("p-password") .innerHTML = nome + cognome + colorePreferito + 21;
 document.getElementById ("p-passwordRecupero") .innerHTML = nome + cognome + colorePreferito + divisione;
